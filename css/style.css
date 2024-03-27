@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: rgb(247, 247, 247);
+    font-size: 50px;
+    text-align: center;
+}
+button{
+    color:rgb(0, 0, 0);
+    font-size: 50pt; padding:50px
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.btn-link{
+    text-decoration: nome;
+    border: 1px solid rgb(0, 0, 0);
+}

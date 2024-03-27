@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+    .container {
+        position: relative;
+        height: 450px;
+        /* Defina a altura conforme necessário */
+    }
+    .imagem{
+        position: absolute;
+        top: 40%; /* Posiciona a parte superior da imagem no centro vertical */
+        left: 50%; /* Posiciona a parte esquerda da imagem no centro horizontal */
+        transform: translate(-50%, -50%); /* Centraliza a imagem */
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .imagem2{
+        position: absolute;
+        top: 40%; /* Posiciona a parte superior da imagem no centro vertical */
+        left: 15%; /* Posiciona a parte esquerda da imagem no centro horizontal */
+        transform: translate(-50%, -50%); /* Centraliza a imagem */
+        max-width: 100%;
+        max-height: 100%;
+        width: 450px;
+    }
+    .imagem3{
+        position: absolute;
+        top: 40%; /* Posiciona a parte superior da imagem no centro vertical */
+        left: 80%; /* Posiciona a parte esquerda da imagem no centro horizontal */
+        transform: translate(-50%, -50%); /* Centraliza a imagem */
+        max-width: 100%;
+        max-height: 100%;
+        width: 450px;
+        }
+        #sorvete{
+            color: white;
+        }
+        p{
+            color: white;
+            margin: 80px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+</head>
+
+<body>
+
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1>Escolha Quantos <span class="branco">jogadores iram jogar</span></h1>
+        </div>
+        <div id="area-menu">
+            <a href="1jogador.html">1 Jogador</a>
+            <a href="2jogador.html">2 Jogadores</a>
+            
+        </div>
+
+
+    <div id="area-cabecalho">
+        <button onclick="inserirNome()">Clique para obter informações</button>
+    </div>
+
+    <script>
+
+        function inserirNome() {
+            var nome = prompt("Digite seu nome", "Nome");
+            if (nome != null) {
+
+                alert("Olá " + nome + ", tudo bem? Essa web foi criada com o objetivo de mostrar alguns  jogos de acordo com seu gosto, clique na opção 1 ou 2 para obter mais informações.")
+            }
+        }
+    </script>
+</body>
+</html>
